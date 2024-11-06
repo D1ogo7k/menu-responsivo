@@ -19,7 +19,7 @@ header > h1 {
 }
 
 menu {
-    display: block;
+    display: none;
 
 }
 
@@ -44,6 +44,25 @@ menu > ul > li > a:hover {
   transition-duration: 1s;
   transform: translate(-17px, -17px);
 }
+span#burguer {
+    display: block;
+    background-color:  rgba(59, 59, 59, 0.274);
+    text-align: center;
+  
+    width: 20vw;
+    border: 2px solid black;    
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+
+span#burguer:hover{
+    padding: 10;
+    width: 100vw;
+    background-color:  rgb(89, 148, 204);
+    transition-duration: 0.8s;
+    transform: translate(5px, 5px);
+}
 main {
     width: 90vw;
     background-color: rgba(117, 117, 117, 0.795);
@@ -62,3 +81,4 @@ margin-top: 10px;
 color: rgb(255, 255, 255);
 text-shadow: 2px 1px 20px black;
 }
+
